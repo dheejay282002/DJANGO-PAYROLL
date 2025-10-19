@@ -1,0 +1,298 @@
+{% extends "hrms/base.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+
+{% if head != 'Add Employee' %}
+<div class="card">
+    <div class="card-body">
+        {% include "employee/update_menu.html" %}
+    </div>
+</div>
+{% endif %}
+
+{% if form.errors %}
+<div class="alert alert-danger">
+    <h5>Form errors:</h5>
+    <ul>
+        {% for field, errors in form.errors.items %}
+            <li><strong>{{ field }}:</strong> {{ errors|striptags }}</li>
+        {% endfor %}
+    </ul>
+</div>
+{% endif %}
+
+<div class="card">
+    <div class="card-body">
+        <div class="row">
+            <div class="col example-grid-col">
+                {% if "update-record" in request.path %}
+                <div class="pull-left">
+                    <a href="{% url 'employee-records' pk %}" class="btn btn-info">Go Back</a>
+                </div>
+                {% endif %}
+            </div>
+            <div class="col-7 example-grid-col">
+                <br>
+                <form method="POST" novalidate="">
+                    {% csrf_token %}
+
+                    {# Render all fields with crispy except citizenship, citizenship_option, remarks #}
+                    {% for field in form %}
+                        {% if field.name != "citizenship" and field.name != "citizenship_option" and field.name != "remarks" %}
+                            {{ field|as_crispy_field }}
+                        {% endif %}
+                    {% endfor %}
+
+                    {# Citizenship & Other Citizenship #}
+                    <div class="form-group">
+                        <label for="id_citizenship" class="col-form-label requiredField">Citizenship<span class="asteriskField">*</span></label>
+                        <select name="citizenship" class="form-control" id="id_citizenship">
+                            {% for val, label in form.fields.citizenship.choices %}
+                                <option value="{{ val }}" {% if form.citizenship.value == val %}selected{% endif %}>{{ label }}</option>
+                            {% endfor %}
+                        </select>
+                        {% if form.citizenship.errors %}
+                            <div class="text-danger">{{ form.citizenship.errors.0 }}</div>
+                        {% endif %}
+                    </div>
+
+                    <div id="div_id_citizenship_option" class="form-group" style="{% if form.citizenship.value != 'Other' %}display:none;{% endif %}">
+                        <label for="id_citizenship_option" class="col-form-label requiredField">
+                            Other Citizenship<span class="asteriskField">*</span>
+                        </label>
+                        <input type="text" name="citizenship_option" value="{{ form.citizenship_option.value|default_if_none:'' }}" 
+                               class="textinput textInput form-control" id="id_citizenship_option">
+                        {% if form.citizenship_option.errors %}
+                            <div class="text-danger">{{ form.citizenship_option.errors.0 }}</div>
+                        {% endif %}
+                    </div>
+
+                    {# Remarks #}
+                    <div class="form-group">
+                        <label for="id_remarks" class="col-form-label">Remarks</label>
+                        <textarea name="remarks" class="form-control" id="id_remarks">{{ form.remarks.value|default_if_none:'' }}</textarea>
+                        {% if form.remarks.errors %}
+                            <div class="text-danger">{{ form.remarks.errors.0 }}</div>
+                        {% endif %}
+                    </div>
+
+                    <button type="submit" class="btn btn-success">Save</button>
+                </form>
+            </div>
+            <div class="col example-grid-col">
+            </div>
+        </div>
+    </div>
+</div>
+
+{# Existing tables for records, loans, uniform, etc. #}
+{% if may_records %}
+<div class="card">
+    <div class="card-body">
+        <div class="table-responsive" style="margin-top: 10px">
+            <table class="table">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col" class="text-center">#</th>
+                        <th scope="col" class="text-center">From</th>
+                        <th scope="col" class="text-center">To</th>
+                        <th scope="col" class="text-center">Company</th>
+                        <th scope="col" class="text-center">Position</th>
+                        <th scope="col" class="text-center">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for records in may_records %}
+                        <tr>
+                            <th class="align-middle text-center" scope="row">{{ forloop.counter}}</th>
+                            <td class="align-middle text-center">{{ records.from_date }} </td>
+                            <td class="align-middle text-center">{{ records.to_date }}</td>
+                            <td class="align-middle text-center">{{ records.company }}</td>
+                            <td class="align-middle text-center">{{ records.position }}</td>
+                            <td class="align-middle text-center">
+                                <a href="{% url 'update-record' records.pk %}" class="btn btn-info">Update</a>
+                                <form style="display:inline" action="{% url 'emp-record-delete' records.pk records.employee_id %}" method="post">
+                                    {% csrf_token %}
+                                    <button type="submit" onclick="return confirm('Are you sure you want to delete this record?');" name="button" class="btn btn-danger">Delete</button>
+                                </form>
+                            </td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+{% endif %}
+
+{% if may_loan %}
+<div class="card">
+    <div class="card-body">
+        <div class="table-responsive" style="margin-top: 10px">
+            <table class="table">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col" class="text-center">#</th>
+                        <th scope="col" class="text-center">Amount</th>
+                        <th scope="col" class="text-center">Rate to deduct</th>
+                        <th scope="col" class="text-center">Status</th>
+                        <th scope="col" class="text-center">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for loan in may_loan %}
+                        <tr>
+                            <th class="align-middle text-center" scope="row">{{ forloop.counter}}</th>
+                            <td class="align-middle text-center">{{ loan.load_amount }} </td>
+                            <td class="align-middle text-center">{{ loan.rate_to_deduct }}</td>
+                            <td class="align-middle text-center">
+                                {% if loan.status == False %}
+                                    <span class="badge badge-danger mr-2 mb-1">Not Yet Paid</span>
+                                {% else %}
+                                    <span class="badge badge-success mr-2 mb-1">Paid</span>
+                                {% endif %}
+                            </td>
+                            <td class="align-middle text-center">
+                                <a href="
+                                    {% if kind == 'pagibig' %}
+                                        {% url 'employee-pagibigloan-contrib' loan.id pk %}
+                                    {% elif kind == 'company' %}
+                                        {% url 'employee-comloan-contrib' loan.id pk %}
+                                    {% elif kind == 'sss' %}
+                                        {% url 'employee-sssloan-contrib' loan.id pk %}
+                                    {% endif %}
+                                " class="btn btn-info">View Contribution</a>
+                            </td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+{% endif %}
+
+{% if may_uniform %}
+<div class="card">
+    <div class="card-body">
+        <div class="table-responsive" style="margin-top: 10px">
+            <table class="table">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col" class="text-center">#</th>
+                        <th scope="col" class="text-center">Amount</th>
+                        <th scope="col" class="text-center">Rate to deduct</th>
+                        <th scope="col" class="text-center">Status</th>
+                        <th scope="col" class="text-center">Date Created</th>
+                        <th scope="col" class="text-center">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for uni in may_uniform %}
+                        <tr>
+                            <th class="align-middle text-center" scope="row">{{ forloop.counter}}</th>
+                            <td class="align-middle text-center">{{ uni.amount }} </td>
+                            <td class="align-middle text-center">{{ uni.rate_to_deduct }} </td>
+                            <td class="align-middle text-center">
+                                {% if uni.status == False %}
+                                    <span class="badge badge-danger mr-2 mb-1">Not Yet Paid</span>
+                                {% else %}
+                                    <span class="badge badge-success mr-2 mb-1">Paid</span>
+                                {% endif %}
+                            </td>
+                            <td class="align-middle text-center">{{ uni.created_at }}</td>
+                            <td class="align-middle text-center">
+                                <a href="
+                                    {% if kind == 'vale' %}
+                                        {% url 'employee-valeloan-contrib' uni.id pk %}
+                                    {% elif kind == 'canteen' %}
+                                        {% url 'employee-canteen-contrib' uni.id pk %}
+                                    {% elif kind == 'medical' %}
+                                        {% url 'employee-medical-contrib' uni.id pk %}
+                                    {% elif kind == 'gatepass' %}
+                                        {% url 'employee-gatepass-contrib' uni.id pk %}
+                                    {% endif %}
+                                " class="btn btn-info">View Contribution</a>
+                            </td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+{% endif %}
+
+{% if "employee-update" in request.path or "employee-add" in request.path %}
+<script>
+function Hide() {
+    if(document.getElementsByName('citizenship')[0].value == "Other") {
+        document.getElementById('div_id_citizenship_option').style.display = '';
+    } else {
+        document.getElementById('div_id_citizenship_option').style.display = 'none';
+    }
+}
+
+function HideSSS() {
+    if(document.getElementsByName('sss_option')[0].value == "bracket") {
+        document.getElementById('div_id_sss_bracket').style.display = '';
+        document.getElementById('div_id_sss_value').style.display = 'none';
+    } else if (document.getElementsByName('sss_option')[0].value == "manual"){
+        document.getElementById('div_id_sss_bracket').style.display = 'none';
+        document.getElementById('div_id_sss_value').style.display = '';
+    } else {
+        document.getElementById('div_id_sss_bracket').style.display = 'none';
+        document.getElementById('div_id_sss_value').style.display = 'none';
+    }
+}
+
+function HideGovDeductions() {
+    if(document.getElementsByName('gov_deductions_to_implement')[0].value == "company_base_deductions") {
+        document.getElementById('div_id_sss_option').style.display = 'none';
+        document.getElementById('div_id_sss_bracket').style.display = 'none';
+        document.getElementById('div_id_sss_value').style.display = 'none';
+        document.getElementById('div_id_pagibig_value').style.display = 'none';
+        document.getElementById('div_id_philhealth_value').style.display = 'none';
+    } else if(document.getElementsByName('gov_deductions_to_implement')[0].value == "employee_base_deductions") {
+        document.getElementById('div_id_sss_option').style.display = '';
+        document.getElementById('div_id_pagibig_value').style.display = '';
+        document.getElementById('div_id_philhealth_value').style.display = '';
+    } else {
+        document.getElementById('div_id_sss_option').style.display = 'none';
+        document.getElementById('div_id_sss_bracket').style.display = 'none';
+        document.getElementById('div_id_sss_value').style.display = 'none';
+        document.getElementById('div_id_pagibig_value').style.display = 'none';
+        document.getElementById('div_id_philhealth_value').style.display = 'none';
+    }
+}
+
+window.onload = function() {
+    Hide();
+    HideSSS();
+    HideGovDeductions();
+};
+</script>
+{% endif %}
+
+<script>
+function toggleOtherCitizenship() {
+    var select = document.getElementById("id_citizenship");
+    var otherInputDiv = document.getElementById("div_id_citizenship_option");
+    var otherInput = document.getElementById("id_citizenship_option");
+
+    if (select.value === "Other") {
+        otherInputDiv.style.display = "block";
+    } else {
+        otherInputDiv.style.display = "none";
+        otherInput.value = "";
+    }
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+    toggleOtherCitizenship();
+    var citizenshipSelect = document.getElementById("id_citizenship");
+    citizenshipSelect.addEventListener("change", toggleOtherCitizenship);
+});
+</script>
+
+{% endblock content %}
