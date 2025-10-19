@@ -1,0 +1,2399 @@
+[
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "logs",
+        "model": "logs"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "payrolllist",
+        "model": "base_payroll"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "payrolllist",
+        "model": "payroll_for_phil_asia"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "payrolllist",
+        "model": "payroll"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "payrolllist",
+        "model": "gov_benefits"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "voucher",
+        "model": "voucher"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "voucher",
+        "model": "voucher_particulars"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "employee",
+        "model": "employee"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "employee",
+        "model": "employee_canteen"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "employee",
+        "model": "employee_citizenship"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "employee",
+        "model": "employee_gatepass"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "employee",
+        "model": "employee_medical"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "employee",
+        "model": "employee_pagibig_loan"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "employee",
+        "model": "employee_sss_loan"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "employee",
+        "model": "employee_vale"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "employee",
+        "model": "employment_record"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "employee",
+        "model": "employee_valeloan_contrib"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "employee",
+        "model": "employee_uniform"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "employee",
+        "model": "employee_sssloan_contrib"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "employee",
+        "model": "employee_sss"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "employee",
+        "model": "employee_return_to_work"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "employee",
+        "model": "employee_resume"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "employee",
+        "model": "employee_requirements"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "employee",
+        "model": "employee_preferences"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "employee",
+        "model": "employee_picture"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "employee",
+        "model": "employee_philhealth"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "employee",
+        "model": "employee_pagibigloan_contrib"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "employee",
+        "model": "employee_pagibig"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "employee",
+        "model": "employee_memo"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "employee",
+        "model": "employee_medical_contrib"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "employee",
+        "model": "employee_leave_history"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "employee",
+        "model": "employee_hiring_details"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "employee",
+        "model": "employee_gatepass_contrib"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "employee",
+        "model": "employee_company_loan"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "employee",
+        "model": "employee_comloan_contrib"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "employee",
+        "model": "employee_canteen_contrib"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "employee",
+        "model": "employee_acceptance"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "hrms",
+        "model": "company"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "hrms",
+        "model": "company_rates"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "general_settings",
+        "model": "bracketsscontribee"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "general_settings",
+        "model": "general_settings"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add logs",
+        "content_type": [
+            "logs",
+            "logs"
+        ],
+        "codename": "add_logs"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change logs",
+        "content_type": [
+            "logs",
+            "logs"
+        ],
+        "codename": "change_logs"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete logs",
+        "content_type": [
+            "logs",
+            "logs"
+        ],
+        "codename": "delete_logs"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view logs",
+        "content_type": [
+            "logs",
+            "logs"
+        ],
+        "codename": "view_logs"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add base_payroll",
+        "content_type": [
+            "payrolllist",
+            "base_payroll"
+        ],
+        "codename": "add_base_payroll"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change base_payroll",
+        "content_type": [
+            "payrolllist",
+            "base_payroll"
+        ],
+        "codename": "change_base_payroll"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete base_payroll",
+        "content_type": [
+            "payrolllist",
+            "base_payroll"
+        ],
+        "codename": "delete_base_payroll"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view base_payroll",
+        "content_type": [
+            "payrolllist",
+            "base_payroll"
+        ],
+        "codename": "view_base_payroll"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add payroll_for_phil_asia",
+        "content_type": [
+            "payrolllist",
+            "payroll_for_phil_asia"
+        ],
+        "codename": "add_payroll_for_phil_asia"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change payroll_for_phil_asia",
+        "content_type": [
+            "payrolllist",
+            "payroll_for_phil_asia"
+        ],
+        "codename": "change_payroll_for_phil_asia"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete payroll_for_phil_asia",
+        "content_type": [
+            "payrolllist",
+            "payroll_for_phil_asia"
+        ],
+        "codename": "delete_payroll_for_phil_asia"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view payroll_for_phil_asia",
+        "content_type": [
+            "payrolllist",
+            "payroll_for_phil_asia"
+        ],
+        "codename": "view_payroll_for_phil_asia"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add payroll",
+        "content_type": [
+            "payrolllist",
+            "payroll"
+        ],
+        "codename": "add_payroll"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change payroll",
+        "content_type": [
+            "payrolllist",
+            "payroll"
+        ],
+        "codename": "change_payroll"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete payroll",
+        "content_type": [
+            "payrolllist",
+            "payroll"
+        ],
+        "codename": "delete_payroll"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view payroll",
+        "content_type": [
+            "payrolllist",
+            "payroll"
+        ],
+        "codename": "view_payroll"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add gov_benefits",
+        "content_type": [
+            "payrolllist",
+            "gov_benefits"
+        ],
+        "codename": "add_gov_benefits"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change gov_benefits",
+        "content_type": [
+            "payrolllist",
+            "gov_benefits"
+        ],
+        "codename": "change_gov_benefits"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete gov_benefits",
+        "content_type": [
+            "payrolllist",
+            "gov_benefits"
+        ],
+        "codename": "delete_gov_benefits"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view gov_benefits",
+        "content_type": [
+            "payrolllist",
+            "gov_benefits"
+        ],
+        "codename": "view_gov_benefits"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add voucher",
+        "content_type": [
+            "voucher",
+            "voucher"
+        ],
+        "codename": "add_voucher"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change voucher",
+        "content_type": [
+            "voucher",
+            "voucher"
+        ],
+        "codename": "change_voucher"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete voucher",
+        "content_type": [
+            "voucher",
+            "voucher"
+        ],
+        "codename": "delete_voucher"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view voucher",
+        "content_type": [
+            "voucher",
+            "voucher"
+        ],
+        "codename": "view_voucher"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add voucher_particulars",
+        "content_type": [
+            "voucher",
+            "voucher_particulars"
+        ],
+        "codename": "add_voucher_particulars"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change voucher_particulars",
+        "content_type": [
+            "voucher",
+            "voucher_particulars"
+        ],
+        "codename": "change_voucher_particulars"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete voucher_particulars",
+        "content_type": [
+            "voucher",
+            "voucher_particulars"
+        ],
+        "codename": "delete_voucher_particulars"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view voucher_particulars",
+        "content_type": [
+            "voucher",
+            "voucher_particulars"
+        ],
+        "codename": "view_voucher_particulars"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add employee",
+        "content_type": [
+            "employee",
+            "employee"
+        ],
+        "codename": "add_employee"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change employee",
+        "content_type": [
+            "employee",
+            "employee"
+        ],
+        "codename": "change_employee"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete employee",
+        "content_type": [
+            "employee",
+            "employee"
+        ],
+        "codename": "delete_employee"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view employee",
+        "content_type": [
+            "employee",
+            "employee"
+        ],
+        "codename": "view_employee"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add employee_canteen",
+        "content_type": [
+            "employee",
+            "employee_canteen"
+        ],
+        "codename": "add_employee_canteen"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change employee_canteen",
+        "content_type": [
+            "employee",
+            "employee_canteen"
+        ],
+        "codename": "change_employee_canteen"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete employee_canteen",
+        "content_type": [
+            "employee",
+            "employee_canteen"
+        ],
+        "codename": "delete_employee_canteen"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view employee_canteen",
+        "content_type": [
+            "employee",
+            "employee_canteen"
+        ],
+        "codename": "view_employee_canteen"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add employee_citizenship",
+        "content_type": [
+            "employee",
+            "employee_citizenship"
+        ],
+        "codename": "add_employee_citizenship"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change employee_citizenship",
+        "content_type": [
+            "employee",
+            "employee_citizenship"
+        ],
+        "codename": "change_employee_citizenship"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete employee_citizenship",
+        "content_type": [
+            "employee",
+            "employee_citizenship"
+        ],
+        "codename": "delete_employee_citizenship"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view employee_citizenship",
+        "content_type": [
+            "employee",
+            "employee_citizenship"
+        ],
+        "codename": "view_employee_citizenship"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add employee_gatepass",
+        "content_type": [
+            "employee",
+            "employee_gatepass"
+        ],
+        "codename": "add_employee_gatepass"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change employee_gatepass",
+        "content_type": [
+            "employee",
+            "employee_gatepass"
+        ],
+        "codename": "change_employee_gatepass"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete employee_gatepass",
+        "content_type": [
+            "employee",
+            "employee_gatepass"
+        ],
+        "codename": "delete_employee_gatepass"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view employee_gatepass",
+        "content_type": [
+            "employee",
+            "employee_gatepass"
+        ],
+        "codename": "view_employee_gatepass"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add employee_medical",
+        "content_type": [
+            "employee",
+            "employee_medical"
+        ],
+        "codename": "add_employee_medical"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change employee_medical",
+        "content_type": [
+            "employee",
+            "employee_medical"
+        ],
+        "codename": "change_employee_medical"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete employee_medical",
+        "content_type": [
+            "employee",
+            "employee_medical"
+        ],
+        "codename": "delete_employee_medical"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view employee_medical",
+        "content_type": [
+            "employee",
+            "employee_medical"
+        ],
+        "codename": "view_employee_medical"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add employee_pagibig_loan",
+        "content_type": [
+            "employee",
+            "employee_pagibig_loan"
+        ],
+        "codename": "add_employee_pagibig_loan"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change employee_pagibig_loan",
+        "content_type": [
+            "employee",
+            "employee_pagibig_loan"
+        ],
+        "codename": "change_employee_pagibig_loan"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete employee_pagibig_loan",
+        "content_type": [
+            "employee",
+            "employee_pagibig_loan"
+        ],
+        "codename": "delete_employee_pagibig_loan"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view employee_pagibig_loan",
+        "content_type": [
+            "employee",
+            "employee_pagibig_loan"
+        ],
+        "codename": "view_employee_pagibig_loan"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add employee_sss_loan",
+        "content_type": [
+            "employee",
+            "employee_sss_loan"
+        ],
+        "codename": "add_employee_sss_loan"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change employee_sss_loan",
+        "content_type": [
+            "employee",
+            "employee_sss_loan"
+        ],
+        "codename": "change_employee_sss_loan"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete employee_sss_loan",
+        "content_type": [
+            "employee",
+            "employee_sss_loan"
+        ],
+        "codename": "delete_employee_sss_loan"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view employee_sss_loan",
+        "content_type": [
+            "employee",
+            "employee_sss_loan"
+        ],
+        "codename": "view_employee_sss_loan"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add employee_vale",
+        "content_type": [
+            "employee",
+            "employee_vale"
+        ],
+        "codename": "add_employee_vale"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change employee_vale",
+        "content_type": [
+            "employee",
+            "employee_vale"
+        ],
+        "codename": "change_employee_vale"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete employee_vale",
+        "content_type": [
+            "employee",
+            "employee_vale"
+        ],
+        "codename": "delete_employee_vale"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view employee_vale",
+        "content_type": [
+            "employee",
+            "employee_vale"
+        ],
+        "codename": "view_employee_vale"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add employment_record",
+        "content_type": [
+            "employee",
+            "employment_record"
+        ],
+        "codename": "add_employment_record"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change employment_record",
+        "content_type": [
+            "employee",
+            "employment_record"
+        ],
+        "codename": "change_employment_record"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete employment_record",
+        "content_type": [
+            "employee",
+            "employment_record"
+        ],
+        "codename": "delete_employment_record"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view employment_record",
+        "content_type": [
+            "employee",
+            "employment_record"
+        ],
+        "codename": "view_employment_record"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add employee_valeloan_contrib",
+        "content_type": [
+            "employee",
+            "employee_valeloan_contrib"
+        ],
+        "codename": "add_employee_valeloan_contrib"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change employee_valeloan_contrib",
+        "content_type": [
+            "employee",
+            "employee_valeloan_contrib"
+        ],
+        "codename": "change_employee_valeloan_contrib"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete employee_valeloan_contrib",
+        "content_type": [
+            "employee",
+            "employee_valeloan_contrib"
+        ],
+        "codename": "delete_employee_valeloan_contrib"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view employee_valeloan_contrib",
+        "content_type": [
+            "employee",
+            "employee_valeloan_contrib"
+        ],
+        "codename": "view_employee_valeloan_contrib"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add employee_uniform",
+        "content_type": [
+            "employee",
+            "employee_uniform"
+        ],
+        "codename": "add_employee_uniform"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change employee_uniform",
+        "content_type": [
+            "employee",
+            "employee_uniform"
+        ],
+        "codename": "change_employee_uniform"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete employee_uniform",
+        "content_type": [
+            "employee",
+            "employee_uniform"
+        ],
+        "codename": "delete_employee_uniform"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view employee_uniform",
+        "content_type": [
+            "employee",
+            "employee_uniform"
+        ],
+        "codename": "view_employee_uniform"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add employee_sssloan_contrib",
+        "content_type": [
+            "employee",
+            "employee_sssloan_contrib"
+        ],
+        "codename": "add_employee_sssloan_contrib"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change employee_sssloan_contrib",
+        "content_type": [
+            "employee",
+            "employee_sssloan_contrib"
+        ],
+        "codename": "change_employee_sssloan_contrib"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete employee_sssloan_contrib",
+        "content_type": [
+            "employee",
+            "employee_sssloan_contrib"
+        ],
+        "codename": "delete_employee_sssloan_contrib"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view employee_sssloan_contrib",
+        "content_type": [
+            "employee",
+            "employee_sssloan_contrib"
+        ],
+        "codename": "view_employee_sssloan_contrib"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add employee_sss",
+        "content_type": [
+            "employee",
+            "employee_sss"
+        ],
+        "codename": "add_employee_sss"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change employee_sss",
+        "content_type": [
+            "employee",
+            "employee_sss"
+        ],
+        "codename": "change_employee_sss"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete employee_sss",
+        "content_type": [
+            "employee",
+            "employee_sss"
+        ],
+        "codename": "delete_employee_sss"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view employee_sss",
+        "content_type": [
+            "employee",
+            "employee_sss"
+        ],
+        "codename": "view_employee_sss"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add employee_return_to_work",
+        "content_type": [
+            "employee",
+            "employee_return_to_work"
+        ],
+        "codename": "add_employee_return_to_work"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change employee_return_to_work",
+        "content_type": [
+            "employee",
+            "employee_return_to_work"
+        ],
+        "codename": "change_employee_return_to_work"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete employee_return_to_work",
+        "content_type": [
+            "employee",
+            "employee_return_to_work"
+        ],
+        "codename": "delete_employee_return_to_work"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view employee_return_to_work",
+        "content_type": [
+            "employee",
+            "employee_return_to_work"
+        ],
+        "codename": "view_employee_return_to_work"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add employee_resume",
+        "content_type": [
+            "employee",
+            "employee_resume"
+        ],
+        "codename": "add_employee_resume"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change employee_resume",
+        "content_type": [
+            "employee",
+            "employee_resume"
+        ],
+        "codename": "change_employee_resume"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete employee_resume",
+        "content_type": [
+            "employee",
+            "employee_resume"
+        ],
+        "codename": "delete_employee_resume"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view employee_resume",
+        "content_type": [
+            "employee",
+            "employee_resume"
+        ],
+        "codename": "view_employee_resume"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add employee_requirements",
+        "content_type": [
+            "employee",
+            "employee_requirements"
+        ],
+        "codename": "add_employee_requirements"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change employee_requirements",
+        "content_type": [
+            "employee",
+            "employee_requirements"
+        ],
+        "codename": "change_employee_requirements"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete employee_requirements",
+        "content_type": [
+            "employee",
+            "employee_requirements"
+        ],
+        "codename": "delete_employee_requirements"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view employee_requirements",
+        "content_type": [
+            "employee",
+            "employee_requirements"
+        ],
+        "codename": "view_employee_requirements"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add employee_preferences",
+        "content_type": [
+            "employee",
+            "employee_preferences"
+        ],
+        "codename": "add_employee_preferences"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change employee_preferences",
+        "content_type": [
+            "employee",
+            "employee_preferences"
+        ],
+        "codename": "change_employee_preferences"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete employee_preferences",
+        "content_type": [
+            "employee",
+            "employee_preferences"
+        ],
+        "codename": "delete_employee_preferences"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view employee_preferences",
+        "content_type": [
+            "employee",
+            "employee_preferences"
+        ],
+        "codename": "view_employee_preferences"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add employee_picture",
+        "content_type": [
+            "employee",
+            "employee_picture"
+        ],
+        "codename": "add_employee_picture"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change employee_picture",
+        "content_type": [
+            "employee",
+            "employee_picture"
+        ],
+        "codename": "change_employee_picture"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete employee_picture",
+        "content_type": [
+            "employee",
+            "employee_picture"
+        ],
+        "codename": "delete_employee_picture"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view employee_picture",
+        "content_type": [
+            "employee",
+            "employee_picture"
+        ],
+        "codename": "view_employee_picture"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add employee_philhealth",
+        "content_type": [
+            "employee",
+            "employee_philhealth"
+        ],
+        "codename": "add_employee_philhealth"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change employee_philhealth",
+        "content_type": [
+            "employee",
+            "employee_philhealth"
+        ],
+        "codename": "change_employee_philhealth"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete employee_philhealth",
+        "content_type": [
+            "employee",
+            "employee_philhealth"
+        ],
+        "codename": "delete_employee_philhealth"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view employee_philhealth",
+        "content_type": [
+            "employee",
+            "employee_philhealth"
+        ],
+        "codename": "view_employee_philhealth"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add employee_pagibigloan_contrib",
+        "content_type": [
+            "employee",
+            "employee_pagibigloan_contrib"
+        ],
+        "codename": "add_employee_pagibigloan_contrib"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change employee_pagibigloan_contrib",
+        "content_type": [
+            "employee",
+            "employee_pagibigloan_contrib"
+        ],
+        "codename": "change_employee_pagibigloan_contrib"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete employee_pagibigloan_contrib",
+        "content_type": [
+            "employee",
+            "employee_pagibigloan_contrib"
+        ],
+        "codename": "delete_employee_pagibigloan_contrib"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view employee_pagibigloan_contrib",
+        "content_type": [
+            "employee",
+            "employee_pagibigloan_contrib"
+        ],
+        "codename": "view_employee_pagibigloan_contrib"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add employee_pagibig",
+        "content_type": [
+            "employee",
+            "employee_pagibig"
+        ],
+        "codename": "add_employee_pagibig"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change employee_pagibig",
+        "content_type": [
+            "employee",
+            "employee_pagibig"
+        ],
+        "codename": "change_employee_pagibig"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete employee_pagibig",
+        "content_type": [
+            "employee",
+            "employee_pagibig"
+        ],
+        "codename": "delete_employee_pagibig"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view employee_pagibig",
+        "content_type": [
+            "employee",
+            "employee_pagibig"
+        ],
+        "codename": "view_employee_pagibig"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add employee_memo",
+        "content_type": [
+            "employee",
+            "employee_memo"
+        ],
+        "codename": "add_employee_memo"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change employee_memo",
+        "content_type": [
+            "employee",
+            "employee_memo"
+        ],
+        "codename": "change_employee_memo"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete employee_memo",
+        "content_type": [
+            "employee",
+            "employee_memo"
+        ],
+        "codename": "delete_employee_memo"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view employee_memo",
+        "content_type": [
+            "employee",
+            "employee_memo"
+        ],
+        "codename": "view_employee_memo"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add employee_medical_contrib",
+        "content_type": [
+            "employee",
+            "employee_medical_contrib"
+        ],
+        "codename": "add_employee_medical_contrib"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change employee_medical_contrib",
+        "content_type": [
+            "employee",
+            "employee_medical_contrib"
+        ],
+        "codename": "change_employee_medical_contrib"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete employee_medical_contrib",
+        "content_type": [
+            "employee",
+            "employee_medical_contrib"
+        ],
+        "codename": "delete_employee_medical_contrib"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view employee_medical_contrib",
+        "content_type": [
+            "employee",
+            "employee_medical_contrib"
+        ],
+        "codename": "view_employee_medical_contrib"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add employee_leave_history",
+        "content_type": [
+            "employee",
+            "employee_leave_history"
+        ],
+        "codename": "add_employee_leave_history"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change employee_leave_history",
+        "content_type": [
+            "employee",
+            "employee_leave_history"
+        ],
+        "codename": "change_employee_leave_history"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete employee_leave_history",
+        "content_type": [
+            "employee",
+            "employee_leave_history"
+        ],
+        "codename": "delete_employee_leave_history"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view employee_leave_history",
+        "content_type": [
+            "employee",
+            "employee_leave_history"
+        ],
+        "codename": "view_employee_leave_history"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add employee_hiring_details",
+        "content_type": [
+            "employee",
+            "employee_hiring_details"
+        ],
+        "codename": "add_employee_hiring_details"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change employee_hiring_details",
+        "content_type": [
+            "employee",
+            "employee_hiring_details"
+        ],
+        "codename": "change_employee_hiring_details"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete employee_hiring_details",
+        "content_type": [
+            "employee",
+            "employee_hiring_details"
+        ],
+        "codename": "delete_employee_hiring_details"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view employee_hiring_details",
+        "content_type": [
+            "employee",
+            "employee_hiring_details"
+        ],
+        "codename": "view_employee_hiring_details"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add employee_gatepass_contrib",
+        "content_type": [
+            "employee",
+            "employee_gatepass_contrib"
+        ],
+        "codename": "add_employee_gatepass_contrib"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change employee_gatepass_contrib",
+        "content_type": [
+            "employee",
+            "employee_gatepass_contrib"
+        ],
+        "codename": "change_employee_gatepass_contrib"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete employee_gatepass_contrib",
+        "content_type": [
+            "employee",
+            "employee_gatepass_contrib"
+        ],
+        "codename": "delete_employee_gatepass_contrib"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view employee_gatepass_contrib",
+        "content_type": [
+            "employee",
+            "employee_gatepass_contrib"
+        ],
+        "codename": "view_employee_gatepass_contrib"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add employee_company_loan",
+        "content_type": [
+            "employee",
+            "employee_company_loan"
+        ],
+        "codename": "add_employee_company_loan"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change employee_company_loan",
+        "content_type": [
+            "employee",
+            "employee_company_loan"
+        ],
+        "codename": "change_employee_company_loan"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete employee_company_loan",
+        "content_type": [
+            "employee",
+            "employee_company_loan"
+        ],
+        "codename": "delete_employee_company_loan"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view employee_company_loan",
+        "content_type": [
+            "employee",
+            "employee_company_loan"
+        ],
+        "codename": "view_employee_company_loan"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add employee_comloan_contrib",
+        "content_type": [
+            "employee",
+            "employee_comloan_contrib"
+        ],
+        "codename": "add_employee_comloan_contrib"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change employee_comloan_contrib",
+        "content_type": [
+            "employee",
+            "employee_comloan_contrib"
+        ],
+        "codename": "change_employee_comloan_contrib"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete employee_comloan_contrib",
+        "content_type": [
+            "employee",
+            "employee_comloan_contrib"
+        ],
+        "codename": "delete_employee_comloan_contrib"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view employee_comloan_contrib",
+        "content_type": [
+            "employee",
+            "employee_comloan_contrib"
+        ],
+        "codename": "view_employee_comloan_contrib"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add employee_canteen_contrib",
+        "content_type": [
+            "employee",
+            "employee_canteen_contrib"
+        ],
+        "codename": "add_employee_canteen_contrib"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change employee_canteen_contrib",
+        "content_type": [
+            "employee",
+            "employee_canteen_contrib"
+        ],
+        "codename": "change_employee_canteen_contrib"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete employee_canteen_contrib",
+        "content_type": [
+            "employee",
+            "employee_canteen_contrib"
+        ],
+        "codename": "delete_employee_canteen_contrib"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view employee_canteen_contrib",
+        "content_type": [
+            "employee",
+            "employee_canteen_contrib"
+        ],
+        "codename": "view_employee_canteen_contrib"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add employee_acceptance",
+        "content_type": [
+            "employee",
+            "employee_acceptance"
+        ],
+        "codename": "add_employee_acceptance"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change employee_acceptance",
+        "content_type": [
+            "employee",
+            "employee_acceptance"
+        ],
+        "codename": "change_employee_acceptance"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete employee_acceptance",
+        "content_type": [
+            "employee",
+            "employee_acceptance"
+        ],
+        "codename": "delete_employee_acceptance"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view employee_acceptance",
+        "content_type": [
+            "employee",
+            "employee_acceptance"
+        ],
+        "codename": "view_employee_acceptance"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add company",
+        "content_type": [
+            "hrms",
+            "company"
+        ],
+        "codename": "add_company"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change company",
+        "content_type": [
+            "hrms",
+            "company"
+        ],
+        "codename": "change_company"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete company",
+        "content_type": [
+            "hrms",
+            "company"
+        ],
+        "codename": "delete_company"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view company",
+        "content_type": [
+            "hrms",
+            "company"
+        ],
+        "codename": "view_company"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add company_rates",
+        "content_type": [
+            "hrms",
+            "company_rates"
+        ],
+        "codename": "add_company_rates"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change company_rates",
+        "content_type": [
+            "hrms",
+            "company_rates"
+        ],
+        "codename": "change_company_rates"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete company_rates",
+        "content_type": [
+            "hrms",
+            "company_rates"
+        ],
+        "codename": "delete_company_rates"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view company_rates",
+        "content_type": [
+            "hrms",
+            "company_rates"
+        ],
+        "codename": "view_company_rates"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add permission",
+        "content_type": [
+            "auth",
+            "permission"
+        ],
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change permission",
+        "content_type": [
+            "auth",
+            "permission"
+        ],
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": [
+            "auth",
+            "permission"
+        ],
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view permission",
+        "content_type": [
+            "auth",
+            "permission"
+        ],
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add group",
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change group",
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete group",
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view group",
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add user",
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change user",
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete user",
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view user",
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add content type",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change content type",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view content type",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add session",
+        "content_type": [
+            "sessions",
+            "session"
+        ],
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change session",
+        "content_type": [
+            "sessions",
+            "session"
+        ],
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete session",
+        "content_type": [
+            "sessions",
+            "session"
+        ],
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view session",
+        "content_type": [
+            "sessions",
+            "session"
+        ],
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add bracket ss contrib ee",
+        "content_type": [
+            "general_settings",
+            "bracketsscontribee"
+        ],
+        "codename": "add_bracketsscontribee"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change bracket ss contrib ee",
+        "content_type": [
+            "general_settings",
+            "bracketsscontribee"
+        ],
+        "codename": "change_bracketsscontribee"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete bracket ss contrib ee",
+        "content_type": [
+            "general_settings",
+            "bracketsscontribee"
+        ],
+        "codename": "delete_bracketsscontribee"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view bracket ss contrib ee",
+        "content_type": [
+            "general_settings",
+            "bracketsscontribee"
+        ],
+        "codename": "view_bracketsscontribee"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add general_settings",
+        "content_type": [
+            "general_settings",
+            "general_settings"
+        ],
+        "codename": "add_general_settings"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change general_settings",
+        "content_type": [
+            "general_settings",
+            "general_settings"
+        ],
+        "codename": "change_general_settings"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete general_settings",
+        "content_type": [
+            "general_settings",
+            "general_settings"
+        ],
+        "codename": "delete_general_settings"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view general_settings",
+        "content_type": [
+            "general_settings",
+            "general_settings"
+        ],
+        "codename": "view_general_settings"
+    }
+}
+]
